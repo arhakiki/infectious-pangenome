@@ -1,0 +1,23 @@
+### linux installed modules
+sudo apt list --installed > infectious-pangenome/dependent-packages/linux_pkgs.txt
+
+### R installed packages
+# activate R
+R
+
+# within R, do this:
+pkg = as.data.frame(installed.packages()[,c(1,3:4)])
+pkg = pkg[is.na(ip$Priority),1:2,drop=FALSE]
+pkg
+
+# copy paste pkg into R_pkgs.txt
+
+### conda packages
+# activate pangloss env
+conda activate pangloss
+# pipe the packages
+conda list > conda.pkgs
+
+### perl modules
+
+### python packages
