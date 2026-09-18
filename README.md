@@ -1,7 +1,7 @@
 # Arinis project repository
-1. A
-2. B
-3. C
+
+### Project brief:
+![Project plan](/docs/project_layout.png)
 
 ### Title 2
 ```
