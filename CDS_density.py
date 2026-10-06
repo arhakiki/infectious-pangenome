@@ -1,3 +1,5 @@
+# WIP: either integrate Pandas to operate (end-start) OR move to R altogether
+
 from Bio import SeqIO
 from Bio import SeqRecord
 from Bio import SeqFeature
